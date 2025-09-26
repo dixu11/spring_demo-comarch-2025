@@ -23,4 +23,8 @@ public class AnimalService {
     public void add(Animal animal) {
         animalRepository.addAnimal(animal);
     }
+
+    public Animal getAnimal(int id) {
+        return animalRepository.findById(id);
+    }
 }

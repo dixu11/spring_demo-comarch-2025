@@ -35,6 +35,11 @@ public class AnimalController {
         return animalService.getAnimals();
     }
 
+    @GetMapping("/api/v1/animals/{id}")
+    public Animal getAnimal(@PathVariable int id) { // wycinanie ze ścieżki - konwencja przy wskazywaniu na konkretny zasób
+        return animalService.getAnimal(id);
+    }
+
     @PostMapping("/api/v1/animals")
     public void addAnimal(@RequestBody Animal animal){
         animalService.add(animal);

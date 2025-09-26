@@ -8,4 +8,6 @@ public interface AnimalRepository {
     List<Animal> getAnimals();
 
    void addAnimal(Animal animal);
+
+    Animal findById(int id);
 }

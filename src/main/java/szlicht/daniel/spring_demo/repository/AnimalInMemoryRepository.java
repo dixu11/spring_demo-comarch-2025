@@ -19,4 +19,9 @@ public class AnimalInMemoryRepository implements AnimalRepository {
     public void addAnimal(Animal animal) {
         animals.add(animal);
     }
+
+    @Override
+    public Animal findById(int id) {
+        return animals.get(id);
+    }
 }
