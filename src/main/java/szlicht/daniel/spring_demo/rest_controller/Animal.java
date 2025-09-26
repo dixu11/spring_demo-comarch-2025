@@ -1,7 +1,16 @@
 package szlicht.daniel.spring_demo.rest_controller;
 
+import jakarta.persistence.Entity;
+import jakarta.persistence.GeneratedValue;
+import jakarta.persistence.Id;
+
+//mówi że ten obiekt ma swoją reprezentacje bazodanową
+@Entity
 public class Animal {
 
+    @Id // klucz główny z SQL
+    @GeneratedValue
+    private int id;
     private String name;
     private int age;
     private String type;
@@ -32,6 +41,7 @@ public class Animal {
         return "Animal{" +
                 "name='" + name + '\'' +
                 ", age=" + age +
+                ", id=" + id +
                 ", type='" + type + '\'' +
                 '}';
     }

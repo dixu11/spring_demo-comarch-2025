@@ -4,7 +4,6 @@ import org.springframework.stereotype.Service;
 import szlicht.daniel.spring_demo.repository.AnimalRepository;
 import szlicht.daniel.spring_demo.rest_controller.Animal;
 
-import java.util.ArrayList;
 import java.util.List;
 
 @Service

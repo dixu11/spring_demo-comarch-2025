@@ -9,5 +9,6 @@ public interface AnimalRepository {
 
    void addAnimal(Animal animal);
 
+   //tu użyłem terminologii springa więc automat implementujący repozytorium nie miał z nią problemu
     Animal findById(int id);
 }
