@@ -1,6 +1,5 @@
-package szlicht.daniel.spring_demo;
+package szlicht.daniel.spring_demo.beans;
 
-import jakarta.annotation.PostConstruct;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.stereotype.Component;
 

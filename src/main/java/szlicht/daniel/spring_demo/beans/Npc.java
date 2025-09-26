@@ -1,4 +1,4 @@
-package szlicht.daniel.spring_demo;
+package szlicht.daniel.spring_demo.beans;
 
 public class Npc {
 

@@ -1,4 +1,4 @@
-package szlicht.daniel.spring_demo;
+package szlicht.daniel.spring_demo.beans;
 
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Component;

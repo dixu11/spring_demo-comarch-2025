@@ -1,6 +1,5 @@
-package szlicht.daniel.spring_demo;
+package szlicht.daniel.spring_demo.beans;
 
-import org.springframework.context.annotation.Primary;
 import org.springframework.stereotype.Component;
 
 @Component("sql") //zleca springowi stworzenie obiektu z tej klasy
