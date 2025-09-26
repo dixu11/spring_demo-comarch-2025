@@ -1,11 +1,16 @@
 package szlicht.daniel.spring_demo;
 
+import org.springframework.beans.factory.annotation.Qualifier;
+import org.springframework.stereotype.Component;
+
+@Component
 public class Game {
 
     private NpcRepository npcRepository;
 
 
-    public Game(NpcRepository npcRepository) {
+    public Game(@Qualifier("memory") NpcRepository npcRepository) {
+        System.out.println("Tworzę Game które wymagało NpcRepository");
         this.npcRepository = npcRepository;
     }
 
