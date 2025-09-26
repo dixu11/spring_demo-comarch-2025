@@ -21,9 +21,9 @@ public class ConsoleController implements CommandLineRunner { //CLR - rozwiązan
         String firstDialog = game.getFirstDialog();
         System.out.println(firstDialog);
         //Scanner scanner = new Scanner(System.in);
-        System.out.println("Wybierz odpowiedź:");
-        String odpowiedz = scanner.nextLine();
-        System.out.println(odpowiedz);
+//        System.out.println("Wybierz odpowiedź:");
+//        String odpowiedz = scanner.nextLine();
+//        System.out.println(odpowiedz);
     }
 
 
